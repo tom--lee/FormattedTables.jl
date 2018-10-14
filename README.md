@@ -7,7 +7,7 @@ tabular data stored in an object supporting the [Tables.jl
 interface](https://github.com/JuliaData/Tables.jl). For each column, a 
 `FormatSpec`, provided by [the Format.jl 
 package](https://github.com/JuliaString/Format.jl), can be used to format the 
-column using the a Python-like string formatting syntax.
+column.
 
 
 # Usage
