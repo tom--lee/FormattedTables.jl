@@ -4,7 +4,7 @@ using Format
 using Tables
 
 """
-    write(
+    FormattedTables.write(
         file::Union{IO,String},
         table;
         delim = ' ',
