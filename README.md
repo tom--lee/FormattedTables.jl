@@ -2,6 +2,8 @@
 
 A Julia package for formatting tabular data.
 
+[![Build Status](https://travis-ci.org/tom--lee/FormattedTables.jl.svg?branch=master)](https://travis-ci.org/tom--lee/FormattedTables.jl)
+
 This package contains a single function, `FormattedTables.write`, used to write 
 tabular data stored in an object supporting the [Tables.jl 
 interface](https://github.com/JuliaData/Tables.jl). For each column, a 
