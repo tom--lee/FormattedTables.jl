@@ -11,7 +11,7 @@ column using the a Python-like string formatting syntax.
 
 
 # Usage
-```
+```julia
 FormattedTables.write(
     file::Union{IO,String},
     table;
@@ -44,7 +44,7 @@ Keyword arguments include:
 
 # Example
 
-```
+```julia
 julia> using FormattedTables
 
 julia> using DataFrames
@@ -65,7 +65,7 @@ IOBuffer(data=UInt8[...], readable=true, writable=false, seekable=true, append=f
 julia> data = CSV.read(csv) |> DataFrame
 5×3 DataFrame
 │ Row │ name    │ height   │ age    │
-│     │ String⍰ │ Float64⍰ │ Int64⍰ │
+│     │ String  │ Float64  │ Int64  │
 ├─────┼─────────┼──────────┼────────┤
 │ 1   │ Alice   │ 1.6      │ 21     │
 │ 2   │ Bob     │ 1.83     │ 40     │
