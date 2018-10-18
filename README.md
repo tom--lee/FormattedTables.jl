@@ -36,11 +36,8 @@ Keyword arguments include:
 * `formatters`: A dictionary, named tuple, or similar collection that maps 
   the the names (`Symbol`s) of the columns to be written to a `Format.FormatSpec`
   used to format the column.
-* `formatters`: A dictionary, named tuple, or similar collection that maps 
-  the the names (`Symbol`s) of the columns to be written to a `Format.FormatSpec`
-  used to format the column.
-* `header_fmt`: A dictionary, named tuple, or similar collection that maps 
-  the the names (`Symbol`s) of the columns to be written to a `Format.FormatSpec`
+* `header_fmt`: A dictionary, named tuple, or similar collection that maps the 
+  the names (`Symbol`s) of the columns to be written to a `Format.FormatSpec`
   used to format the column headers. Set to `nothing` to skip writing column
   headers.
 
